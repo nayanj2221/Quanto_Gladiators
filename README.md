@@ -1,1 +1,124 @@
-# Quanto_Gladiators
+# Monte Carlo Quantum Galton Board
+### Project Name
+Quantum Walks and Monte Carlo
+### Team Name
+Quanto_Gladiators
+### Team Members
+## Team Members
+- **Jerison**: WISER Enrollment ID: WP2025-XXXX (Placeholder)
+- **Nero**: WISER Enrollment ID: WP2025-YYYY (Placeholder)
+- **Ipsita**: WISER Enrollment ID: WP2025-ZZZZ (Placeholder)
+
+*Note: WISER Enrollment IDs are placeholders and will be updated upon receipt.*
+
+# 🧠 Quantum Galton Box Analysis
+
+This project explores the potential of **quantum computing** in simulating complex systems using a **Galton Box-style Monte Carlo approach**, also known as a **quantum walk simulation**. Inspired by the concept of the **Universal Statistical Simulator**, the project highlights how quantum circuits can model probabilistic behaviors efficiently, and serves as an educational exploration into both classical and quantum stochastic systems.
+
+---
+
+## 🎯 Objective
+
+The main objective of this project is to **simulate, analyze, and compare** different versions of the Galton Box — classical, quantum, noisy quantum, and biased quantum — across multiple layers. The goal is to investigate:
+
+- How quantum superposition and interference affect output distributions,
+- The impact of noise on quantum circuits,
+- Differences between biased and unbiased systems,
+- And how quantum results deviate or converge to classical expectations under various conditions.
+
+---
+
+## 📚 Background
+
+A **Galton Box (Plinko)** is a statistical device where balls drop through several layers of pegs, taking random left or right turns, and accumulate into a distribution that closely resembles a binomial (or normal) curve. This randomness makes it an ideal candidate for **Monte Carlo simulation**. In the quantum version, **Hadamard gates** represent a quantum coin flip, allowing superpositions of left/right states.
+
+The quantum Galton Box is relevant to:
+
+- **Quantum walks** and **quantum Fourier transforms**
+- **Simulation of high-dimensional probabilistic systems**
+- **Particle transport** and **quantum dynamics**
+- Benchmarking **noise models** and exploring **quantum error resilience**
+
+---
+
+## 🧪 Tasks Breakdown
+
+### ✅ Task 1 – Classical Simulation
+Simulates the Galton Box using random binary decisions. Repeats this process for 5, 10, 15, 20, and 25 layers.
+
+### ✅ Task 2 – Quantum Galton Box
+Implements quantum circuits using Hadamard gates and measurements, analyzing how quantum superposition distributes probabilities.
+
+### ✅ Task 3 – Biased Quantum Galton Box
+Applies a bias to the quantum flips, altering probability distributions (e.g., bias toward '1' with 70% probability).
+
+### ✅ Task 4 – Noise Simulation
+Uses **Qiskit Aer noise models** to introduce depolarizing errors into the quantum circuits, simulating realistic, noisy environments.
+
+### ✅ Task 5 – Method-Wise Comparison
+Compares distributions using:
+
+- **Total Variation Distance (TVD)**
+- **Kullback–Leibler Divergence (KL)**
+- (Optional) **Wasserstein Distance**
+
+### ⏳ Task 6 – Report
+Summarizes results, includes plots, analysis, and learning outcomes from all simulations.
+
+### 🚫 Task 7 – Hardware Execution
+Attempted real hardware execution using IBM Quantum, but due to Open Plan limitations (only simulator access), full execution on real devices was skipped.
+
+---
+
+## 🛠️ Tools Used
+
+- **Qiskit** (Quantum circuits, noise simulation)
+- **NumPy, Matplotlib, SciPy** (Data processing, visualization, statistical comparisons)
+- **Python 3.x** in Jupyter Notebooks
+- **IBM Quantum Platform** (simulators used)
+
+---
+
+## 🌟 Outcomes
+
+This project deepened understanding of how **quantum systems behave under uncertainty**, and how they compare to classical randomness. It showed the strengths of quantum simulations in reproducing statistical phenomena and highlighted current challenges, especially hardware access under free plans.
+
+---
+
+## 📁 Repository Structure
+
+```bash
+quantum-galton-box-analysis/
+│
+├── README.md                        <-- Project overview & task descriptions
+├── requirements.txt                 <-- All required Python packages
+├── .gitignore                       <-- Files to ignore (e.g., .ipynb_checkpoints)
+│
+├── task_1_classical/               <-- Task 1: Classical Galton Box
+│   ├── classical_galton_box.ipynb
+│   ├── results/
+│   │   ├── galton_box_5.png
+│   │   └── galton_box_10.png
+│   └── ...
+│
+├── task_2_quantum/                 <-- Task 2: Quantum Galton Box
+│   ├── quantum_galton_box.ipynb
+│   ├── results/
+│   │   ├── quantum_5.png
+│   │   └── quantum_10.png
+│   └── ...
+│
+├── task_3_biased_quantum/         <-- Task 3: Biased Quantum Box
+│   └── biased_quantum_galton_box.ipynb
+│
+├── task_4_noise_analysis/         <-- Task 4: Noise Simulation (Qiskit Runtime)
+│   └── noise_simulation.ipynb
+│
+├── task_5_comparison/             <-- ✅ Task 5: Method-wise Comparison
+│   └── method_comparison_5_layers.ipynb
+│
+└── utils/                          <-- Reusable code/functions (optional)
+    └── galton_box_utils.py
+
+
+
