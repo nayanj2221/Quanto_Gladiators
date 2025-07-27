@@ -1,0 +1,5 @@
+{
+  "IBM_API_KEY": "paste_your_api_key_here",
+  "IBM_CRN": "paste_your_crn_here",
+  "instance_name": "name_of_your_account"
+}
