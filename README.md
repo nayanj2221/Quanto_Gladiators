@@ -11,13 +11,13 @@ Quanto_Gladiators
 
 *Note: WISER Enrollment IDs are placeholders and will be updated upon receipt.*
 
-# 🧠 Quantum Galton Box Analysis
+#  Quantum Galton Box Analysis
 
 This project explores the potential of **quantum computing** in simulating complex systems using a **Galton Box-style Monte Carlo approach**, also known as a **quantum walk simulation**. Inspired by the concept of the **Universal Statistical Simulator**, the project highlights how quantum circuits can model probabilistic behaviors efficiently, and serves as an educational exploration into both classical and quantum stochastic systems.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The main objective of this project is to **simulate, analyze, and compare** different versions of the Galton Box — classical, quantum, noisy quantum, and biased quantum — across multiple layers. The goal is to investigate:
 
@@ -28,7 +28,7 @@ The main objective of this project is to **simulate, analyze, and compare** diff
 
 ---
 
-## 📚 Background
+##  Background
 
 A **Galton Box (Plinko)** is a statistical device where balls drop through several layers of pegs, taking random left or right turns, and accumulate into a distribution that closely resembles a binomial (or normal) curve. This randomness makes it an ideal candidate for **Monte Carlo simulation**. In the quantum version, **Hadamard gates** represent a quantum coin flip, allowing superpositions of left/right states.
 
@@ -41,36 +41,36 @@ The quantum Galton Box is relevant to:
 
 ---
 
-## 🧪 Tasks Breakdown
+##  Tasks Breakdown
 
-### ✅ Task 1 – Classical Simulation
+###  Task 1 – Classical Simulation
 Simulates the Galton Box using random binary decisions. Repeats this process for 5, 10, 15, 20, and 25 layers.
 
-### ✅ Task 2 – Quantum Galton Box
+###  Task 2 – Quantum Galton Box
 Implements quantum circuits using Hadamard gates and measurements, analyzing how quantum superposition distributes probabilities.
 
-### ✅ Task 3 – Biased Quantum Galton Box
+###  Task 3 – Biased Quantum Galton Box
 Applies a bias to the quantum flips, altering probability distributions (e.g., bias toward '1' with 70% probability).
 
-### ✅ Task 4 – Noise Simulation
+###  Task 4 – Noise Simulation
 Uses **Qiskit Aer noise models** to introduce depolarizing errors into the quantum circuits, simulating realistic, noisy environments.
 
-### ✅ Task 5 – Method-Wise Comparison
+###  Task 5 – Method-Wise Comparison
 Compares distributions using:
 
 - **Total Variation Distance (TVD)**
 - **Kullback–Leibler Divergence (KL)**
 - (Optional) **Wasserstein Distance**
 
-### ⏳ Task 6 – Report
+###  Task 6 – Report
 Summarizes results, includes plots, analysis, and learning outcomes from all simulations.
 
-### 🚫 Task 7 – Hardware Execution
+###  Task 7 – Hardware Execution
 Attempted real hardware execution using IBM Quantum, but due to Open Plan limitations (only simulator access), full execution on real devices was skipped.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **Qiskit** (Quantum circuits, noise simulation)
 - **NumPy, Matplotlib, SciPy** (Data processing, visualization, statistical comparisons)
@@ -79,13 +79,13 @@ Attempted real hardware execution using IBM Quantum, but due to Open Plan limita
 
 ---
 
-## 🌟 Outcomes
+##  Outcomes
 
 This project deepened understanding of how **quantum systems behave under uncertainty**, and how they compare to classical randomness. It showed the strengths of quantum simulations in reproducing statistical phenomena and highlighted current challenges, especially hardware access under free plans.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```bash
 Quanto_Gladiators/
@@ -94,7 +94,7 @@ Quanto_Gladiators/
 │    ├── summary.pdf
 │    └── presentation.pdf
 │
-├── 1_Classical GB/               <-- ✅ Task 1: Classical Galton Box
+├── 1_Classical GB/               <--  Task 1: Classical Galton Box
 │   ├── classical_galton_box.ipynb
 │   ├── results/
 │   │   ├── galton_box_5_layers.png
@@ -104,7 +104,7 @@ Quanto_Gladiators/
 │   │   ├── galton_box_25_layers.png
 │   └── Classical_README.md
 │
-├── 2_Quantum GB/                 <-- ✅ Task 2: Quantum Galton Box
+├── 2_Quantum GB/                 <--  Task 2: Quantum Galton Box
 │   ├── quantum_galton_box.ipynb
 │   ├── results_quantum/
 │   │   ├── quantum_galton_box_5_layers.png
@@ -114,7 +114,7 @@ Quanto_Gladiators/
 │   │   ├── quantum_galton_box_25_layers.png
 │   └── Quantum_README.md
 │
-├── task_3_Biased GB/         <-- ✅ Task 3: Biased Quantum Box
+├── task_3_Biased GB/         <--  Task 3: Biased Quantum Box
 │   └── biased_quantum_galton_box.ipynb
 │   ├── results_quantum_biased/
 │   │   ├── biased_quantum_galton_box_5_layers.png
@@ -124,7 +124,7 @@ Quanto_Gladiators/
 │   │   ├── biased_quantum_galton_box_25_layers.png
 │   └── Biased_README.md 
 │   
-├── 4_Noise/         <--  ✅ Task 4: Noise Simulation (Qiskit Runtime)
+├── 4_Noise/         <--   Task 4: Noise Simulation (Qiskit Runtime)
 │   └── noisy_galton_box.ipynb
 │   ├── results\noise
 │   │   ├── noisy_biased_galton_box_5_layers.png
@@ -134,7 +134,7 @@ Quanto_Gladiators/
 │   │   ├── noisy_biased_galton_box_25_layers.png
 │   └── Noise_README.md  
 │
-├── 5_Comparison/             <-- ✅ Task 5: Method-wise Comparison
+├── 5_Comparison/             <--  Task 5: Method-wise Comparison
 │   ├── galton_box_comparison_5_layers.ipynb
 │   ├── galton_box_comparison_10_layers.ipynb
 │   ├── galton_box_comparison_15_layers.ipynb
