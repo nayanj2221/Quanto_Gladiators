@@ -154,7 +154,7 @@ Quanto_Gladiators/
 │   └── Comparison_README.md
 │
 ├── 6_Educational_toolkit/
-│   ├── results
+│   ├── results/
 │   ├── education_toolkit_README.md
 │   ├── requirements.txt
 │   └── voila quantum_dashboard_simulator.ipynb
