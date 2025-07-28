@@ -90,6 +90,10 @@ This project deepened understanding of how **quantum systems behave under uncert
 ```bash
 Quanto_Gladiators/
 │
+├── Docs/
+│    ├── summary.pdf
+│    └── presentation.pdf
+│
 ├── 1_Classical GB/               <-- ✅ Task 1: Classical Galton Box
 │   ├── classical_galton_box.ipynb
 │   ├── results/
@@ -122,7 +126,7 @@ Quanto_Gladiators/
 │   
 ├── 4_Noise/         <--  ✅ Task 4: Noise Simulation (Qiskit Runtime)
 │   └── noisy_galton_box.ipynb
-│   ├── results/
+│   ├── results\noise
 │   │   ├── noisy_biased_galton_box_5_layers.png
 │   │   ├── noisy_biased_galton_box_10_layers.png
 │   │   ├── noisy_biased_galton_box_15_layers.png
@@ -130,7 +134,7 @@ Quanto_Gladiators/
 │   │   ├── noisy_biased_galton_box_25_layers.png
 │   └── Noise_README.md  
 │
-├── task_5_comparison/             <-- ✅ Task 5: Method-wise Comparison
+├── 5_Comparison/             <-- ✅ Task 5: Method-wise Comparison
 │   ├── galton_box_comparison_5_layers.ipynb
 │   ├── galton_box_comparison_10_layers.ipynb
 │   ├── galton_box_comparison_15_layers.ipynb
@@ -147,6 +151,13 @@ Quanto_Gladiators/
 │   │   │   └── galton_box_comparison_20_layers.png
 │   │   └── 25_layers/ 
 │   │       └── galton_box_comparison_25_layers.png     
+│   └── Comparison_README.md
+│
+├── 6_Educational_toolkit/
+│   ├── results
+│   ├── education_toolkit_README.md
+│   ├── requirements.txt
+│   ├── voila quantum_dashboard_simulator.ipynb
 │   └── Comparison_README.md
 ├── README.md                        <-- Project overview & task descriptions
 ├── requirements.txt                 <-- All required Python packages
