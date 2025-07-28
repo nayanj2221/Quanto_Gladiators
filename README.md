@@ -157,11 +157,12 @@ Quanto_Gladiators/
 │   ├── results
 │   ├── education_toolkit_README.md
 │   ├── requirements.txt
-│   ├── voila quantum_dashboard_simulator.ipynb
-│   └── Comparison_README.md
+│   └── voila quantum_dashboard_simulator.ipynb
+│   
 ├── README.md                        <-- Project overview & task descriptions
 ├── requirements.txt                 <-- All required Python packages
 └── .gitignore                       <-- Files to ignore (e.g., .ipynb_checkpoints)
+
 
 ```
 
