@@ -1,82 +1,91 @@
 # Classical Galton Board Simulation
 
-   This folder contains the Classical Galton Board simulation (Task 1) for the Quantum Walks and Monte Carlo project, part of WISER 2025 in collaboration with the National Nuclear Laboratory (NNL). The simulation uses Monte Carlo methods to model random walks, producing a binomial distribution that mirrors neutron scattering in nuclear reactors, a key application for NNL’s reactor design and safety efforts.
-## Overview
-The Galton Board is a device where balls fall through rows of pegs, randomly moving left or right, forming a binomial distribution that approximates a Gaussian curve with more layers. This random walk process is similar to Monte Carlo neutron transport, where neutrons scatter through reactor materials. Our simulation in classical_galton_box.ipynb uses Monte Carlo methods to track ball paths, modeling neutron-like behavior in a simplified form.
-## Application to Monte Carlo Neutron Transport
-Our classical simulation directly relates to neutron transport in nuclear reactors, a critical focus for NNL:
+Welcome to the **Classical Galton Board** project! This initiative is part of the **Quantum Walks and Monte Carlo** program, submitted for WISER 2025 in collaboration with the National Nuclear Laboratory (NNL). Our simulation uses Monte Carlo methods to model random walks, creating a binomial distribution that closely resembles neutron scattering in nuclear reactors—an important aspect of NNL’s work in reactor design and safety.
 
-Neutron Scattering: Each ball’s random path in the Galton Board represents a neutron’s trajectory as it collides with atoms in a reactor core or moderator (e.g., graphite, uranium).
-Monte Carlo Method: The simulation samples random left/right moves, akin to Monte Carlo tracking of neutron paths to predict flux (neutron flow) or shielding effectiveness.
-Relevance to NNL: This model provides a baseline for understanding neutron behavior, which is essential for optimizing reactor designs and ensuring safety (e.g., minimizing radiation leakage).
-Connection to Quantum: This classical simulation sets the stage for quantum walk-based simulations (2_Quantum GB), which could offer faster neutron transport computations, as suggested by Montanaro’s work (arXiv:1504.06987).
+## Overview
+
+The Galton Board is a captivating device where balls drop through a series of pegs, bouncing left or right in a random manner. As the number of layers increases, the distribution of balls forms a binomial distribution that approximates a Gaussian curve. This random walk process is similar to **Monte Carlo neutron transport**, where neutrons scatter through materials in a reactor. In the `classical_galton_box.ipynb` notebook, we simulate this process using Monte Carlo methods, tracking the paths of the balls to produce distributions that mimic neutron flux in nuclear reactors.
+
+## Application to Monte Carlo Neutron Transport
+
+The classical Galton Board simulation has a direct connection to neutron transport, which is crucial for NNL’s nuclear reactor research:
+
+- **Neutron Scattering**: Each ball's random path represents a neutron's trajectory as it collides with atoms in reactor materials, such as uranium fuel and graphite moderators.
+- **Monte Carlo Method**: The simulation randomly chooses left (-1) or right (+1) moves at each layer, mimicking how Monte Carlo methods track neutron paths to predict neutron flux or shielding effectiveness.
+- **NNL Relevance**: This simulation serves as a foundational model for neutron scattering, essential for optimizing reactor core designs and ensuring safety, including the design of radiation shields.
+- **Link to Quantum**: The classical simulation sets the stage for quantum walk-based simulations (`2_Quantum GB`), which may offer computational speed-ups for neutron transport, as suggested by Montanaro’s work (arXiv:1504.06987).
 
 ## Files and Structure
 
-classical_galton_box.ipynb: Jupyter notebook implementing the Monte Carlo simulation for the Galton Board, with varying layers (5, 10, 15, 20, 25).
-results/:
-galton_box_5_layers.png: Plot for 5 layers.
-galton_box_10_layers.png: Plot for 10 layers.
-galton_box_15_layers.png: Plot for 15 layers.
-galton_box_20_layers.png: Plot for 20 layers.
-galton_box_25_layers.png: Plot for 25 layers.
+Here’s what you’ll find in this project:
 
+- **classical_galton_box.ipynb**: A Jupyter notebook that implements the Monte Carlo simulation for the Galton Board, testing configurations with 5, 10, 15, 20, and 25 layers.
+- **results/**:
+  - `galton_box_5_layers.png`: Histogram for 5 layers.
+  - `galton_box_10_layers.png`: Histogram for 10 layers.
+  - `galton_box_15_layers.png`: Histogram for 15 layers.
+  - `galton_box_20_layers.png`: Histogram for 20 layers.
+  - `galton_box_25_layers.png`: Histogram for 25 layers.
+- **Classical_README.md**: This document, which details the task and its application to neutron transport.
 
-Classical_README.md: This file, detailing the task and its application.
+## Setup and Running Instructions
 
-## Setup and Running
+To get started, follow these steps:
 
-### Prerequisites:
-Ensure dependencies are installed (see main requirements.txt):
-NumPy
-Matplotlib
+1. **Prerequisites**:
+   - Install the necessary dependencies listed in the root `requirements.txt`:
+     - NumPy (1.26.4)
+     - Matplotlib (3.9.2)
+   - Run this command:
+     ```bash
+     pip install -r ../requirements.txt
+     ```
 
+2. **Run the Simulation**:
+   - Launch Jupyter Notebook with the following command:
+     ```bash
+     jupyter notebook classical_galton_box.ipynb
+     ```
+   - Execute all cells to simulate the Galton Board for 5, 10, 15, 20, and 25 layers, with a default of 10,000 trials.
 
-Run:pip install -r ../requirements.txt
-
-
-
-
-### Run the Simulation:
-Open the notebook:jupyter notebook classical_galton_box.ipynb
-
-
-Execute all cells to generate plots for 5, 10, 15, 20, and 25 layers.
-
-
-### Outputs:
-Plots in results/ show binomial distributions, resembling neutron flux patterns in reactors.
-Example: galton_box_10_layers.png shows a bell-shaped curve, similar to neutron distribution after scattering.
-
-
+3. **Outputs**:
+   - The generated plots in the `results/` directory illustrate binomial distributions that resemble neutron flux patterns in reactors.
+   - For instance, `galton_box_10_layers.png` displays a bell-shaped curve, similar to the neutron distribution after scattering.
 
 ## How It Works
 
-Simulation: The notebook uses Monte Carlo methods to simulate balls falling through a Galton Board. For each ball, it randomly chooses left (-1) or right (+1) at each layer, tracking the final position.
-### Parameters:
-Layers: Number of peg rows (5, 10, 15, 20, 25).
-Trials: Number of balls (e.g., 10,000).
+Here’s a quick overview of how the simulation operates:
 
+- **Simulation Mechanics**:
+  - The notebook uses Monte Carlo methods to simulate balls falling through a Galton Board.
+  - For each ball, it randomly selects left (-1) or right (+1) at each layer, accumulating the final position.
+  - The final positions are plotted as a histogram, forming a binomial distribution.
 
-Output: A histogram of final positions, forming a binomial distribution that approximates a Gaussian curve, mimicking neutron flux in nuclear reactors.
-Complexity:
-Time: O(layers * trials), as each ball processes multiple steps.
-Space: O(trials) for storing positions.
+- **Parameters**:
+  - Layers: Number of peg rows (5, 10, 15, 20, 25).
+  - Trials: Number of balls (default: 10,000).
 
+- **Output**: The histograms display the probability distribution of final positions, approximating a Gaussian curve for higher layers, similar to neutron flux in nuclear reactors.
 
+- **Complexity**:
+  - Time Complexity: O(layers * trials), as each ball processes multiple steps.
+  - Space Complexity: O(trials) for storing position data.
 
-### Relevance to WISER 2025
+## Relevance to WISER 2025
 
-Technical Merit: The simulation accurately models random walks, validated by plots showing binomial distributions.
-Communication: Clear visualizations and documentation explain the neutron transport analogy.
-Novelty: Links Monte Carlo neutron transport to NNL’s reactor design, serving as a baseline for quantum speed-ups in later tasks.
+- **Technical Merit**: The simulation effectively generates binomial distributions, validated by high-quality plots (DPI=300) that resemble neutron flux patterns.
+- **Communication**: Clear visualizations and documentation help explain the neutron transport analogy, making it accessible to judges and researchers alike.
+- **Novelty**: This project connects classical Monte Carlo methods to NNL’s neutron transport challenges, providing a baseline for exploring quantum speed-ups in subsequent tasks.
 
-### Next Steps
+## Next Steps
 
-Compare with quantum simulations (2_Quantum GB) to explore computational speed-ups for neutron transport.
-See task_5_comparison for method-wise analysis, including neutron transport accuracy.
-Explore src/educational_tool.ipynb for an interactive explanation of neutron transport using this simulation.
+Looking ahead, we plan to:
 
-### Team
+- Compare results with quantum simulations in `2_Quantum GB/quantum_galton_box.ipynb` to assess potential speed-ups for neutron transport.
+- Review `task_5_comparison` for a method-wise analysis, including accuracy for neutron transport applications.
+- Explore `src/educational_tool.ipynb` for an interactive explanation of neutron transport using this simulation.
 
-Quanto Gladiators: Up to 3 members, collaborating via Discord.
+## Team
+
+- **Quanto Gladiators**: A team of up to 3 members, collaborating via Discord for task division and updates.
+
