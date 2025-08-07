@@ -1,12 +1,12 @@
-# 🌌 Quantum Galton Board Simulation
+# Quantum Galton Board Simulation
 
 Welcome to the **Quantum Galton Board Simulation**, which represents Task 2 of the Quantum Walks and Monte Carlo project. This initiative is proudly submitted for WISER 2025 in collaboration with the National Nuclear Laboratory (NNL). Our simulation harnesses the power of quantum walks using Qiskit to model random walks, offering potential speed-ups for Monte Carlo neutron transport—a transformative advancement for NNL’s reactor design and safety innovations!
 
-## ✨ Overview
+##  Overview
 
 The Quantum Galton Board elevates the classic concept of the Galton Board to a new dimension! Instead of traditional balls tumbling randomly, this simulation employs quantum superposition and interference to explore multiple paths simultaneously, resulting in unique and intricate distributions. This innovative approach mirrors the principles of Monte Carlo neutron transport, where neutrons scatter through reactor materials. The `quantum_galton_box.ipynb` notebook utilizes Qiskit to execute quantum walk simulations, aiming to enhance neutron flux predictions for NNL’s nuclear research.
 
-## 🚀 Application to Monte Carlo Neutron Transport
+##  Application to Monte Carlo Neutron Transport
 
 This quantum simulation significantly enhances neutron transport, aligning seamlessly with NNL’s mission:
 
@@ -15,7 +15,7 @@ This quantum simulation significantly enhances neutron transport, aligning seaml
 - **NNL Advantage**: Faster simulations can optimize reactor designs, enhance safety protocols, and reduce computational costs, making this approach invaluable for nuclear research.
 - **Building on Classical Foundations**: This project builds upon the classical simulation (1_Classical GB), showcasing the advantages of quantum methods for addressing large-scale neutron transport challenges.
 
-## 📂 Files and Structure
+##  Files and Structure
 
 Here’s what you’ll find in this project:
 
@@ -82,3 +82,4 @@ Looking ahead, we plan to:
 - We extend our gratitude to WISER 2025 for the opportunity to showcase this work.
 - Special thanks to NNL for their commitment to advancing neutron transport research.
 - Credit to Montanaro (arXiv:1504.06987) for inspiring the exploration of quantum speed-ups!
+
