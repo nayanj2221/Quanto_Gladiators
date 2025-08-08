@@ -1,0 +1,104 @@
+
+Great! Based on your detailed project and the WISER presentation structure, here's a **ready-to-use script and slide outline** for your 3-minute **Quantum Galton Box Simulation** presentation.
+
+---
+
+## ✅ Presentation Title
+
+**Simulating Quantum Walks & Monte Carlo Using a Galton Box**
+**Team: Quanto Gladiators**
+**WISER Quantum Project**
+(Include WISER logo on all slides)
+
+---
+
+### 🔹 Slide 1: Problem Statement (Title: “Why Simulate Particle Behavior?”)
+
+**Time: \~30 seconds**
+
+**Script:**
+
+> Every day, scientists simulate complex systems like neutron transport in reactors, quantum particles in noisy environments, or even high-dimensional financial models.
+> These simulations are computationally intensive on classical machines, especially in quantum-scale behavior.
+> That’s where our project comes in — using a quantum Galton Box as a simplified but powerful simulation of Monte Carlo behavior with quantum circuits.
+
+---
+
+### 🔹 Slide 2: Our Solution (Title: “Quantum Galton Box Simulator”)
+
+**Time: \~60–90 seconds**
+
+**Script:**
+
+> We built a multi-layered simulation toolkit to model and compare classical and quantum versions of the Galton Box, or “Plinko.”
+> We implemented four simulation models:
+> ✅ Classical Galton Box
+> ✅ Ideal Quantum Galton Box
+> ✅ Noisy Quantum Galton Box (using Qiskit Aer)
+> ✅ Biased Quantum Galton Box
+
+> These models helped us understand how randomness, quantum interference, noise, and bias affect outcome distributions.
+
+> Using Qiskit, Matplotlib, and SciPy, we visualized distributions layer-wise (5 to 25 layers), and compared them using advanced statistical metrics:
+> • Total Variation Distance
+> • KL Divergence
+> • Wasserstein Distance
+
+> We even turned our simulation into an **educational quantum toolkit with an interactive dashboard**, built using Jupyter widgets and deployed via Voilà.
+
+---
+
+### 🔹 Slide 3: Results & Impact (Title: “Results That Reveal Quantum Behavior”)
+
+**Time: \~30–45 seconds**
+
+**Script:**
+
+> Our simulations clearly showed:
+> • Classical distributions form a binomial curve
+> • Quantum models show interference oscillations
+> • Noisy systems lose sharpness due to decoherence
+> • Bias shifts the entire distribution center
+
+> The results were validated visually and quantitatively.
+> 📊 The toolkit serves as both a learning platform and a research starting point for Monte Carlo quantum simulation — relevant in physics, finance, and AI optimization.
+
+---
+
+### 🔹 Slide 4: Future Scope (Title: “Beyond the Box”)
+
+**Time: \~30 seconds**
+
+**Script:**
+
+> We aim to extend our work by:
+>
+> * Running simulations on real IBM Quantum Hardware
+> * Scaling to 2D Galton boards or continuous variables
+> * Integrating with PDE solvers or using VQE/Quantum Walks
+
+> Limitations included hardware access and simulator speed for large circuits — but with real access or batching, our system is ready to evolve.
+
+---
+
+## ✅ Suggested Visuals for Slides
+
+| Slide | Visual Suggestions                                                    |
+| ----- | --------------------------------------------------------------------- |
+| 1     | Diagram of Galton Box + text overlay "Simulating particle behavior"   |
+| 2     | Side-by-side circuit diagrams or method blocks (Classical vs Quantum) |
+| 3     | 1–2 example graphs showing oscillations, shifts, and binomial curves  |
+| 4     | Icons or roadmap: Hardware, 2D model, VQE, etc.                       |
+
+---
+
+## ✅ Final Tips:
+
+* **Rehearse**: Stick to \~30s per slide
+* **Keep visual flow**: 1–2 graphs max per slide
+* **Mention WISER Quantum Project on every slide**
+* **Use consistent font, dark text on light background**
+
+---
+
+Would you like me to also create the actual **PowerPoint or PDF presentation** for you using this plan?
