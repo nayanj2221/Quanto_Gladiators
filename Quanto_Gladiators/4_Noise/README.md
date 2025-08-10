@@ -103,10 +103,11 @@ Looking ahead, plans include:
 
 ## Team
 
-Quanto Gladiators: A dedicated group of up to 3 members, collaborating seamlessly via Discord to advance this project.
+Quanto Gladiators: A dedicated group of up to 2 members, collaborating seamlessly via Discord to advance this project.
 
 ## Acknowledgments
 
 - Gratitude is extended to WISER 2025 for providing the platform to showcase this work.
+
 
 
