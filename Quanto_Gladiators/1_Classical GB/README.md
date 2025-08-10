@@ -6,7 +6,10 @@ Welcome to the **Classical Galton Board** project! This initiative is part of th
 
 The Galton Board is a captivating device where balls drop through a series of pegs, bouncing left or right in a random manner. As the number of layers increases, the distribution of balls forms a binomial distribution that approximates a Gaussian curve. This random walk process is similar to **Monte Carlo neutron transport**, where neutrons scatter through materials in a reactor. In the `classical_galton_box.ipynb` notebook, we simulate this process using Monte Carlo methods, tracking the paths of the balls to produce distributions that mimic neutron flux in nuclear reactors.
 
-![Classical Galton Board Simulation](Classical_Galton_Box.jpg)
+<p align="center">
+  <img src="Classical_Galton_Box.jpg" alt="Classical Galton Board Simulation" style="width:30%; height:auto;">
+</p>
+
 
 
 ## Application to Monte Carlo Neutron Transport
