@@ -6,7 +6,7 @@ Quanto_Gladiators
 ### Team Members
 ## Team Members
 - **Nayan Jadhav**: WISER Enrollment ID: gst-AmKO7kPeqNZy6xI
-- **Member1**: WISER Enrollment ID: WP2025-YYYY (Placeholder)
+- **Arham Sabadra**: WISER Enrollment ID: gst-U6ySL3CkHLSbHdy
 - **Member2**: WISER Enrollment ID: WP2025-ZZZZ (Placeholder)
 
 *Note: WISER Enrollment IDs are placeholders and will be updated upon receipt.*
