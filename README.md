@@ -90,7 +90,7 @@ This project deepened understanding of how **quantum systems behave under uncert
 ```bash
 Quanto_Gladiators/
 │
-├── Docs/
+├── Summary Report/
 │    ├── summary.pdf
 │    └── presentation.pdf
 │
