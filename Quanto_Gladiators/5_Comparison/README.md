@@ -39,7 +39,7 @@ This folder contains the following key files and directories:
 ### Prerequisites
 
 To run this comparison, ensure required dependencies are installed from the root `requirements.txt` file:
-- **Qiskit (1.2.0)**: For quantum circuit execution and noise modeling.
+- **Qiskit (2.0)**: For quantum circuit execution and noise modeling.
 - **Qiskit Aer**: For local noise simulation (included with Qiskit installation).
 - **NumPy (1.26.4)**: For numerical computations and array handling.
 - **Matplotlib (3.9.2)**: For generating high-quality comparative plots.
@@ -118,5 +118,5 @@ Quanto Gladiators: A dedicated group of up to 3 members, collaborating via Disco
 ## Acknowledgments
 
 - Gratitude is extended to WISER 2025 for providing the platform to showcase this work.
-- Thanks to QUCAN QC101 Spring 2025 for the opportunity to explore quantum Monte Carlo projects.
-- Credit to Montanaro (arXiv:1504.06987) for inspiring the exploration of quantum techniques that inform this comparison.
+
+
