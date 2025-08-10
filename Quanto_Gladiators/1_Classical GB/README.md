@@ -91,4 +91,4 @@ Plans include:
 
 ## Team
 
-- **Quanto Gladiators**: A group of up to 3 members, collaborating via Discord for task division and updates.
+- **Quanto Gladiators**: A group of up to 2 members, collaborating via Discord for task division and updates.
