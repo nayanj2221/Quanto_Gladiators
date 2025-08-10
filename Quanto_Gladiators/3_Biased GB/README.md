@@ -35,7 +35,7 @@ This biased quantum simulation tackles complex neutron behavior:
 ### Prerequisites
 
 - Install dependencies from the root `requirements.txt`:
-  - Qiskit (1.2.0)
+  - Qiskit (2.0)
   - NumPy (1.26.4)
   - Matplotlib (3.9.2)
 - Command:
@@ -84,6 +84,7 @@ Quanto Gladiators: A group of up to 3 members, collaborating via Discord.
 ## Acknowledgments
 
 - Thanks to WISER 2025 for the platform.
-- Credit to Montanaro (arXiv:1504.06987) for quantum speedup ideas.
+
+
 
 
