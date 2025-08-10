@@ -79,11 +79,12 @@ This biased quantum simulation tackles complex neutron behavior:
 
 ## Team
 
-Quanto Gladiators: A group of up to 3 members, collaborating via Discord.
+Quanto Gladiators: A group of up to 2 members, collaborating via Discord.
 
 ## Acknowledgments
 
 - Thanks to WISER 2025 for the platform.
+
 
 
 
