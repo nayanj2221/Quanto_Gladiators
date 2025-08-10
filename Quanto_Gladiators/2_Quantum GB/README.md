@@ -7,7 +7,7 @@ Welcome to the Quantum Galton Board Simulation, which represents Task 2 of the Q
 The Quantum Galton Board elevates the classic Galton Board concept. Instead of balls tumbling randomly, quantum superposition and interference explore multiple paths simultaneously, resulting in unique distributions. This approach mirrors principles of Monte Carlo neutron transport, where neutrons scatter through reactor materials. The `quantum_galton_box.ipynb` notebook utilizes Qiskit to execute quantum walk simulations, aiming to enhance neutron flux predictions.
 
 <p align="center">
-  <img src="Quantum_Galton_Board.png" alt="Classical Galton Board Simulation" style="width:60%; height:auto;">
+  <img src="Quantum_Galton_Board.png" alt="Classical Galton Board Simulation" style="width:30%; height:auto;">
 </p>
 
 ## Application to Monte Carlo Neutron Transport
@@ -101,3 +101,4 @@ Quanto Gladiators: A dedicated group of up to 3 members, collaborating via Disco
 ## Acknowledgments
 
 Gratitude is extended to WISER 2025 for the opportunity to showcase this work. Credit to Montanaro (arXiv:1504.06987) for inspiring the exploration of quantum speed-ups.
+
