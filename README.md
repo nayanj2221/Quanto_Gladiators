@@ -5,7 +5,7 @@ Quantum Walks and Monte Carlo
 Quanto_Gladiators
 ### Team Members
 ## Team Members
-- **Nayan Jadhav**: WISER Enrollment ID: WP2025-XXXX (Placeholder)
+- **Nayan Jadhav**: WISER Enrollment ID: gst-AmKO7kPeqNZy6xI
 - **Member1**: WISER Enrollment ID: WP2025-YYYY (Placeholder)
 - **Member2**: WISER Enrollment ID: WP2025-ZZZZ (Placeholder)
 
