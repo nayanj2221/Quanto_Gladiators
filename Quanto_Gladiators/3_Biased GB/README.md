@@ -6,6 +6,10 @@ Task 3 of the Quantum Walks and Monte Carlo project, submitted for WISER 2025. T
 
 The Biased Galton Board adds a twist to the classic and quantum models. Instead of equal left-right probabilities, this simulation incorporates bias (e.g., 70% right, 30% left) using quantum circuits, reflecting real-world neutron scattering with material-dependent probabilities. The `biased_galton_box.ipynb` notebook leverages Qiskit to simulate these biased walks, enhancing neutron transport predictions.
 
+<p align="center">
+  <img src="biased_quantum_galton_box.png" alt="Classical Galton Board Simulation" style="width:60%; height:auto;">
+</p>
+
 ## Application to Monte Carlo Neutron Transport
 
 This biased quantum simulation tackles complex neutron behavior:
@@ -81,3 +85,4 @@ Quanto Gladiators: A group of up to 3 members, collaborating via Discord.
 
 - Thanks to WISER 2025 for the platform.
 - Credit to Montanaro (arXiv:1504.06987) for quantum speedup ideas.
+
