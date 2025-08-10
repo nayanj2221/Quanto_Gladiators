@@ -38,7 +38,7 @@ The project includes:
 
 Install dependencies from the root `requirements.txt`:
 
-- Qiskit (1.2.0)
+- Qiskit (2.0)
 - NumPy (1.26.4)
 - Matplotlib (3.9.2)
 
@@ -100,5 +100,6 @@ Quanto Gladiators: A dedicated group of up to 3 members, collaborating via Disco
 
 ## Acknowledgments
 
-Gratitude is extended to WISER 2025 for the opportunity to showcase this work. Credit to Montanaro (arXiv:1504.06987) for inspiring the exploration of quantum speed-ups.
+Gratitude is extended to WISER 2025 for the opportunity to showcase this work.
+
 
