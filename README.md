@@ -1,9 +1,11 @@
-# Monte Carlo Quantum Galton Board
-### Project Name
-Quantum Walks and Monte Carlo
-### Team Name
+# Simulating Quantum Walks & Monte Carlo Using a Galton Box
+
+## Project Name
+Simulating Quantum Walks & Monte Carlo Using a Galton Box
+
+## Team Name
 Quanto_Gladiators
-### Team Members
+
 ## Team Members
 - **Nayan Jadhav**: WISER Enrollment ID: gst-AmKO7kPeqNZy6xI
 - **Arham Sabadra**: WISER Enrollment ID: gst-U6ySL3CkHLSbHdy
