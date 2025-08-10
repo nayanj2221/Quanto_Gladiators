@@ -96,10 +96,11 @@ Plans include:
 
 ## Team
 
-Quanto Gladiators: A dedicated group of up to 3 members, collaborating via Discord to achieve excellence in quantum research.
+Quanto Gladiators: A dedicated group of up to 2 members, collaborating via Discord to achieve excellence in quantum research.
 
 ## Acknowledgments
 
 Gratitude is extended to WISER 2025 for the opportunity to showcase this work.
+
 
 
