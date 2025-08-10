@@ -27,7 +27,7 @@ This folder contains the following key files and directories:
 
 ### Prerequisites
 To set up and run the educational toolkit, ensure you have the required dependencies installed. The root `requirements.txt` should include basic packages, but this folder’s `requirements.txt` adds toolkit-specific dependencies:
-- **Qiskit (1.2.0)**: For quantum circuit execution.
+- **Qiskit (2.0)**: For quantum circuit execution.
 - **Qiskit Aer**: For noise simulation (included with Qiskit).
 - **NumPy (1.26.4)**: For numerical computations.
 - **Matplotlib (3.9.2)**: For plotting.
@@ -92,7 +92,7 @@ The toolkit implements an interactive quantum dashboard:
 
 Looking ahead, we plan to:
 - Add more interactive features, such as statistical metrics (e.g., variance, KS-test) in the dashboard.
-- Expand the toolkit to include real hardware data (Task 7) for comparison.
+- Expand the toolkit to include real hardware data  for comparison.
 - Share the dashboard with the `6_Educational_toolkit/requirements.txt` for broader educational use.
 
 ##  Educational Insights
@@ -107,6 +107,6 @@ Looking ahead, we plan to:
 ##  Acknowledgments
 
 - We extend our gratitude to WISER 2025 for providing the platform to showcase our work.
-- Special thanks to QUCAN QC101 Spring 2025 for inspiring the educational focus of this project.
-- Credit to Montanaro (arXiv:1504.06987) for foundational quantum insights that enhance this toolkit.
+
+
 
