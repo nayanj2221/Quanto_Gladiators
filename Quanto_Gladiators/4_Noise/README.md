@@ -99,7 +99,7 @@ Looking ahead, plans include:
 
 - Teaches how quantum noise affects algorithm outputs, using depolarizing noise as a key example.
 - Bridges theory and practical quantum computing limitations, preparing learners for real hardware execution.
-- Provides a foundation for understanding noise in the context of the QUCAN QC101 Spring 2025 curriculum.
+
 
 ## Team
 
@@ -108,6 +108,5 @@ Quanto Gladiators: A dedicated group of up to 3 members, collaborating seamlessl
 ## Acknowledgments
 
 - Gratitude is extended to WISER 2025 for providing the platform to showcase this work.
-- Thanks to QUCAN QC101 Spring 2025 for the opportunity to explore quantum Monte Carlo projects.
-- Credit to Montanaro (arXiv:1504.06987) for inspiring the exploration of quantum techniques.
-- Powered by Qiskit Aer Noise Models for realistic simulations.
+
+
